@@ -350,3 +350,33 @@ footer {
   margin: 40px 0;
   flex-shrink: 0;
 }
+@media (max-width: 768px) {
+    .Tudo-inicio {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .lado-direito img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Atitudes {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .atitude {
+        max-width: 100%;
+    }
+
+    header {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}
